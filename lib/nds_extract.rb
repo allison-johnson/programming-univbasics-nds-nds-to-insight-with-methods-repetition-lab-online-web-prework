@@ -46,7 +46,7 @@ def total_gross(source)
   names = list_of_directors(source)
   ind_totals = directors_totals(source)
   names.each do |name|
-    total += directors_totals[name]
+    total += ind_totals[name]
   end #each
   total
 end #method
